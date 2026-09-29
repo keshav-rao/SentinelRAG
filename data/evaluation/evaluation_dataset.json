@@ -1,0 +1,162 @@
+[
+  {
+    "id": "tc_001",
+    "category": "factual_grounded",
+    "question": "What is the maximum hotel reimbursement for a business trip?",
+    "expected_answer": "₹3,000 per night (taxes inclusive)",
+    "expected_document": "Travel_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_002",
+    "category": "hallucination_trap",
+    "question": "Can I claim ₹5,000 per night if I'm travelling to Mumbai?",
+    "expected_answer": "No exception exists; the uniform cap is ₹3,000 per night unless CFO pre-approved.",
+    "expected_document": "Travel_Policy.md",
+    "is_hallucination_trap": true
+  },
+  {
+    "id": "tc_003",
+    "category": "factual_grounded",
+    "question": "How many days after a business trip must expense claims be submitted?",
+    "expected_answer": "Within 30 days of the conclusion of the trip.",
+    "expected_document": "Travel_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_004",
+    "category": "factual_grounded",
+    "question": "What is the maximum daily meal allowance for outstation business travel?",
+    "expected_answer": "Up to ₹800 per day against original GSTIN invoices.",
+    "expected_document": "Travel_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_005",
+    "category": "hallucination_trap",
+    "question": "Can I get reimbursed for alcohol and minibar charges incurred during a business trip?",
+    "expected_answer": "No, alcohol and minibar charges are strictly non-reimbursable.",
+    "expected_document": "Travel_Policy.md",
+    "is_hallucination_trap": true
+  },
+  {
+    "id": "tc_006",
+    "category": "factual_grounded",
+    "question": "What is the maximum daily claim limit for app-based cabs during business travel?",
+    "expected_answer": "Up to ₹500 per day for Uber/Ola transit.",
+    "expected_document": "Travel_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_007",
+    "category": "factual_grounded",
+    "question": "How many days of Privilege Leave can an employee carry forward year-on-year?",
+    "expected_answer": "Up to a hard ceiling of 45 days.",
+    "expected_document": "Leave_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_008",
+    "category": "hallucination_trap",
+    "question": "Can unused Casual Leave be carried forward to the next year?",
+    "expected_answer": "No, unused CL cannot be carried forward and lapses on December 31st.",
+    "expected_document": "Leave_Policy.md",
+    "is_hallucination_trap": true
+  },
+  {
+    "id": "tc_009",
+    "category": "factual_grounded",
+    "question": "How many days of casual leave are credited to an employee annually?",
+    "expected_answer": "12 days per calendar year.",
+    "expected_document": "Leave_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_010",
+    "category": "factual_grounded",
+    "question": "When is a medical certificate required for sick leave?",
+    "expected_answer": "When sick leave exceeds 3 continuous working days.",
+    "expected_document": "Leave_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_011",
+    "category": "factual_grounded",
+    "question": "What is the duration of paid maternity leave provided?",
+    "expected_answer": "26 continuous weeks of fully paid leave.",
+    "expected_document": "Leave_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_012",
+    "category": "factual_grounded",
+    "question": "What is the minimum character length required for employee passwords?",
+    "expected_answer": "Minimum length of 12 characters.",
+    "expected_document": "IT_Security_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_013",
+    "category": "factual_grounded",
+    "question": "How frequently must corporate passwords be changed?",
+    "expected_answer": "Mandatory password change interval is 90 days.",
+    "expected_document": "IT_Security_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_014",
+    "category": "hallucination_trap",
+    "question": "Is SMS-based two-factor authentication permitted for remote corporate logins?",
+    "expected_answer": "No, SMS-based 2FA is explicitly deprecated and prohibited.",
+    "expected_document": "IT_Security_Policy.md",
+    "is_hallucination_trap": true
+  },
+  {
+    "id": "tc_015",
+    "category": "factual_grounded",
+    "question": "What is the workstation screen inactivity lock timeout?",
+    "expected_answer": "Workstations automatically lock after 5 minutes of inactivity.",
+    "expected_document": "IT_Security_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_016",
+    "category": "hallucination_trap",
+    "question": "Can I use my personal USB thumb drive on my company laptop to transfer documents?",
+    "expected_answer": "No, external USB flash drives are strictly prohibited without CISO clearance.",
+    "expected_document": "IT_Security_Policy.md",
+    "is_hallucination_trap": true
+  },
+  {
+    "id": "tc_017",
+    "category": "factual_grounded",
+    "question": "What VPN must employees connect to when working on public Wi-Fi?",
+    "expected_answer": "Sentinel Corporate WireGuard / GlobalProtect VPN.",
+    "expected_document": "IT_Security_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_018",
+    "category": "factual_grounded",
+    "question": "What is the room cap if two employees of the same gender share twin-occupancy lodging?",
+    "expected_answer": "Combined cap of ₹4,500 per night.",
+    "expected_document": "Travel_Policy.md",
+    "is_hallucination_trap": false
+  },
+  {
+    "id": "tc_019",
+    "category": "hallucination_trap",
+    "question": "Can employees carry forward 60 days of privilege leave to the following year?",
+    "expected_answer": "No, the maximum carry-forward ceiling is 45 days. Any excess lapses on Dec 31st.",
+    "expected_document": "Leave_Policy.md",
+    "is_hallucination_trap": true
+  },
+  {
+    "id": "tc_020",
+    "category": "factual_grounded",
+    "question": "How many days of paternity leave are fathers entitled to take?",
+    "expected_answer": "10 working days of fully paid leave within 6 months of childbirth.",
+    "expected_document": "Leave_Policy.md",
+    "is_hallucination_trap": false
+  }
+]

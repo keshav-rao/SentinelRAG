@@ -1,0 +1,53 @@
+{
+  "metrics": {
+    "total": 3,
+    "context_recall": 1.0,
+    "faithfulness": 1.0,
+    "hallucination_rate": 0.0,
+    "quality_gate": "PASS"
+  },
+  "results": [
+    {
+      "test_case": {
+        "id": "tc_001",
+        "category": "factual_grounded",
+        "question": "What is the maximum hotel reimbursement for a business trip?",
+        "expected_answer": "\u20b93,000 per night (taxes inclusive)",
+        "expected_document": "Travel_Policy.md",
+        "is_hallucination_trap": false
+      },
+      "response": "The maximum hotel reimbursement for a business trip is \u20b93,000 per night (taxes inclusive)[Travel_Policy.md - 2.1 Hotel Accommodation Limits].",
+      "recall_hit": true,
+      "critic_score": 1.0,
+      "decision": "PASS"
+    },
+    {
+      "test_case": {
+        "id": "tc_002",
+        "category": "hallucination_trap",
+        "question": "Can I claim \u20b95,000 per night if I'm travelling to Mumbai?",
+        "expected_answer": "No exception exists; the uniform cap is \u20b93,000 per night unless CFO pre-approved.",
+        "expected_document": "Travel_Policy.md",
+        "is_hallucination_trap": true
+      },
+      "response": "No, you cannot claim \u20b95,000 per night if you're travelling to Mumbai. The hotel accommodation limit is uniformly capped at \u20b93,000 per night across all domestic locations, including metropolitan cities like Mumbai. Any booking exceeding \u20b93,000 per night requires prior written approval from the Chief Financial Officer (CFO) [Travel_Policy.md - Section 2.1].",
+      "recall_hit": true,
+      "critic_score": 1.0,
+      "decision": "PASS"
+    },
+    {
+      "test_case": {
+        "id": "tc_003",
+        "category": "factual_grounded",
+        "question": "How many days after a business trip must expense claims be submitted?",
+        "expected_answer": "Within 30 days of the conclusion of the trip.",
+        "expected_document": "Travel_Policy.md",
+        "is_hallucination_trap": false
+      },
+      "response": "Expense claims must be submitted within 30 days of the conclusion of a business trip.  \n[Travel_Policy.md - 5. Expense Submission & Reimbursement Deadlines]",
+      "recall_hit": true,
+      "critic_score": 1.0,
+      "decision": "PASS"
+    }
+  ]
+}

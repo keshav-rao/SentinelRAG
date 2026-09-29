@@ -1,0 +1,53 @@
+version: "3.8"
+
+services:
+  # 1. Qdrant Vector Database
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: sentinel_qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    environment:
+      - QDRANT__SERVICE__GRPC_PORT=6334
+    restart: unless-stopped
+
+  # 2. Ollama Inference Service
+  ollama:
+    image: ollama/ollama:latest
+    container_name: sentinel_ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    restart: unless-stopped
+
+  # 3. SentinelRAG FastAPI Application
+  sentinel_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sentinel_api
+    depends_on:
+      - qdrant
+      - ollama
+    ports:
+      - "8000:8000"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - OLLAMA_LLM_MODEL=qwen3:4b-instruct
+      - OLLAMA_EMBED_MODEL=nomic-embed-text
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
+      - QDRANT_COLLECTION_NAME=sentinel_knowledge
+      - LANGSMITH_TRACING=${LANGSMITH_TRACING:-true}
+      - LANGSMITH_ENDPOINT=${LANGSMITH_ENDPOINT:-https://api.smith.langchain.com}
+      - LANGSMITH_API_KEY=${LANGSMITH_API_KEY}
+      - LANGSMITH_PROJECT=${LANGSMITH_PROJECT:-SentinelRAG}
+    restart: unless-stopped
+
+volumes:
+  qdrant_data:
+  ollama_models:

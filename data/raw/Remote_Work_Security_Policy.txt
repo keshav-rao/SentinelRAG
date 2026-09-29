@@ -1,0 +1,6 @@
+# Remote Work IT Security Policy
+Section 1.1: Home Wi-Fi Standards
+Employees working remotely must ensure their home Wi-Fi is protected with WPA3 encryption. Default router passwords must be changed immediately.
+
+Section 1.2: VPN Mandatory Requirement
+All access to internal company repositories and staging servers must be routed through the corporate WireGuard VPN at all times.

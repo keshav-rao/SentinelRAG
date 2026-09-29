@@ -1,0 +1,2188 @@
+[
+  {
+    "chunk_id": "IT_Security_Policy_c001",
+    "text": "# Sentinel Global — Information Security & Acceptable Use Policy\n\n**Document ID:** POL-SEC-2024-001  \n**Effective Date:** February 15, 2024  \n**Version:** 4.0  \n**Owner:** Chief Information Security Office (CISO)  \n\n---",
+    "metadata": {
+      "source": "IT_Security_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\IT_Security_Policy.md",
+      "file_type": ".md",
+      "section": "Sentinel Global — Information Security & Acceptable Use Policy",
+      "section_index": 1,
+      "total_sections": 4,
+      "chunk_id": "IT_Security_Policy_c001",
+      "chunk_index": 1,
+      "sub_split_index": 1,
+      "char_length": 219,
+      "estimated_tokens": 54
+    }
+  },
+  {
+    "chunk_id": "IT_Security_Policy_c002",
+    "text": "## 1. Scope & Objective\nThis policy governs security protocols regarding corporate data, network access, authentication, and endpoint devices assigned to personnel.\n\n---",
+    "metadata": {
+      "source": "IT_Security_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\IT_Security_Policy.md",
+      "file_type": ".md",
+      "section": "1. Scope & Objective",
+      "section_index": 2,
+      "total_sections": 4,
+      "chunk_id": "IT_Security_Policy_c002",
+      "chunk_index": 2,
+      "sub_split_index": 1,
+      "char_length": 169,
+      "estimated_tokens": 42
+    }
+  },
+  {
+    "chunk_id": "IT_Security_Policy_c003",
+    "text": "## 2. Authentication & Credential Standards\n\n### 2.1 Password Requirements\n* Minimum length of **12 characters**.\n* Must contain uppercase letters, lowercase letters, numbers, and at least one special symbol (!@#$%^&*).\n* Mandatory password change interval is **90 days**.\n* Passwords cannot match any of the previous 6 historical passwords.",
+    "metadata": {
+      "source": "IT_Security_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\IT_Security_Policy.md",
+      "file_type": ".md",
+      "section": "2. Authentication & Credential Standards",
+      "section_index": 3,
+      "total_sections": 4,
+      "chunk_id": "IT_Security_Policy_c003",
+      "chunk_index": 3,
+      "sub_split_index": 1,
+      "char_length": 341,
+      "estimated_tokens": 85
+    }
+  },
+  {
+    "chunk_id": "IT_Security_Policy_c004",
+    "text": "### 2.2 Multi-Factor Authentication (MFA)\n* MFA via hardware token (YubiKey) or approved authenticator application (Google Authenticator / Okta Verify) is **mandatory** for all corporate logins, Single Sign-On (SSO) portals, and VPN endpoints.\n* SMS-based 2FA is explicitly deprecated and prohibited due to SIM-swapping vulnerabilities.\n\n---",
+    "metadata": {
+      "source": "IT_Security_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\IT_Security_Policy.md",
+      "file_type": ".md",
+      "section": "2. Authentication & Credential Standards",
+      "section_index": 3,
+      "total_sections": 4,
+      "chunk_id": "IT_Security_Policy_c004",
+      "chunk_index": 4,
+      "sub_split_index": 2,
+      "char_length": 341,
+      "estimated_tokens": 85
+    }
+  },
+  {
+    "chunk_id": "IT_Security_Policy_c005",
+    "text": "## 3. Device & Endpoint Security\n\n### 3.1 Removable Storage & USB Media\n* The use of external USB flash drives, memory cards, and unencrypted external hard drives on corporate workstations is **strictly prohibited**.\n* USB data transfer ports are disabled at the OS level via MDM profile. Exemptions require formal CISO clearance and cryptographically verified storage.",
+    "metadata": {
+      "source": "IT_Security_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\IT_Security_Policy.md",
+      "file_type": ".md",
+      "section": "3. Device & Endpoint Security",
+      "section_index": 4,
+      "total_sections": 4,
+      "chunk_id": "IT_Security_Policy_c005",
+      "chunk_index": 5,
+      "sub_split_index": 1,
+      "char_length": 369,
+      "estimated_tokens": 92
+    }
+  },
+  {
+    "chunk_id": "IT_Security_Policy_c006",
+    "text": "### 3.2 Clean Screen & Inactivity Lock\n* All laptops and workstations must automatically lock after **5 minutes** of inactivity.\n* Employees must manually lock screens (Windows + L / Control + Command + Q) whenever leaving their work area unattended.",
+    "metadata": {
+      "source": "IT_Security_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\IT_Security_Policy.md",
+      "file_type": ".md",
+      "section": "3. Device & Endpoint Security",
+      "section_index": 4,
+      "total_sections": 4,
+      "chunk_id": "IT_Security_Policy_c006",
+      "chunk_index": 6,
+      "sub_split_index": 2,
+      "char_length": 250,
+      "estimated_tokens": 62
+    }
+  },
+  {
+    "chunk_id": "IT_Security_Policy_c007",
+    "text": "### 3.3 Remote Network Connection (VPN)\n* Connecting to Sentinel internal resources from public or untrusted networks (airports, cafes, hotels) requires active connection to the corporate **WireGuard / GlobalProtect VPN**.\n* Split-tunneling is strictly disabled.",
+    "metadata": {
+      "source": "IT_Security_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\IT_Security_Policy.md",
+      "file_type": ".md",
+      "section": "3. Device & Endpoint Security",
+      "section_index": 4,
+      "total_sections": 4,
+      "chunk_id": "IT_Security_Policy_c007",
+      "chunk_index": 7,
+      "sub_split_index": 3,
+      "char_length": 262,
+      "estimated_tokens": 65
+    }
+  },
+  {
+    "chunk_id": "Leave_Policy_c001",
+    "text": "# Sentinel Global — Employee Leave & Time-Off Policy\n\n**Document ID:** POL-HR-2024-002  \n**Effective Date:** January 1, 2024  \n**Version:** 2.1  \n**Owner:** Human Resources Department  \n\n---",
+    "metadata": {
+      "source": "Leave_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Leave_Policy.md",
+      "file_type": ".md",
+      "section": "Sentinel Global — Employee Leave & Time-Off Policy",
+      "section_index": 1,
+      "total_sections": 3,
+      "chunk_id": "Leave_Policy_c001",
+      "chunk_index": 1,
+      "sub_split_index": 1,
+      "char_length": 190,
+      "estimated_tokens": 47
+    }
+  },
+  {
+    "chunk_id": "Leave_Policy_c002",
+    "text": "## 1. Overview\nSentinel Global is committed to supporting work-life balance while ensuring operational continuity. This document defines employee entitlement to statutory and discretionary leaves.\n\n---",
+    "metadata": {
+      "source": "Leave_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Leave_Policy.md",
+      "file_type": ".md",
+      "section": "1. Overview",
+      "section_index": 2,
+      "total_sections": 3,
+      "chunk_id": "Leave_Policy_c002",
+      "chunk_index": 2,
+      "sub_split_index": 1,
+      "char_length": 201,
+      "estimated_tokens": 50
+    }
+  },
+  {
+    "chunk_id": "Leave_Policy_c003",
+    "text": "## 2. Categories of Leave",
+    "metadata": {
+      "source": "Leave_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Leave_Policy.md",
+      "file_type": ".md",
+      "section": "2. Categories of Leave",
+      "section_index": 3,
+      "total_sections": 3,
+      "chunk_id": "Leave_Policy_c003",
+      "chunk_index": 3,
+      "sub_split_index": 1,
+      "char_length": 25,
+      "estimated_tokens": 6
+    }
+  },
+  {
+    "chunk_id": "Leave_Policy_c004",
+    "text": "### 2.1 Privilege / Earned Leave (PL)\n* **Accrual:** Full-time employees accrue 1.5 days of Privilege Leave per completed calendar month of active service (total 18 days per annum).\n* **Accumulation & Carry Forward:** Employees may carry forward accrued PL year-on-year up to a hard ceiling of **45 days**.\n* **Lapse Rule:** Any accrued PL exceeding 45 days as of December 31st automatically lapses without financial encashment.",
+    "metadata": {
+      "source": "Leave_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Leave_Policy.md",
+      "file_type": ".md",
+      "section": "2. Categories of Leave",
+      "section_index": 3,
+      "total_sections": 3,
+      "chunk_id": "Leave_Policy_c004",
+      "chunk_index": 4,
+      "sub_split_index": 2,
+      "char_length": 428,
+      "estimated_tokens": 107
+    }
+  },
+  {
+    "chunk_id": "Leave_Policy_c005",
+    "text": "* **Encashment:** Encashment is permissible only upon formal resignation or retirement, calculated against base monthly salary.",
+    "metadata": {
+      "source": "Leave_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Leave_Policy.md",
+      "file_type": ".md",
+      "section": "2. Categories of Leave",
+      "section_index": 3,
+      "total_sections": 3,
+      "chunk_id": "Leave_Policy_c005",
+      "chunk_index": 5,
+      "sub_split_index": 3,
+      "char_length": 127,
+      "estimated_tokens": 31
+    }
+  },
+  {
+    "chunk_id": "Leave_Policy_c006",
+    "text": "### 2.2 Casual Leave (CL)\n* Entitlement: **12 days** per calendar year credited on January 1st.\n* CL is intended for personal contingencies and short notice absences.\n* Maximum consecutive CL allowed is 3 days.\n* Unused CL cannot be carried forward to the subsequent calendar year and lapses on December 31st.",
+    "metadata": {
+      "source": "Leave_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Leave_Policy.md",
+      "file_type": ".md",
+      "section": "2. Categories of Leave",
+      "section_index": 3,
+      "total_sections": 3,
+      "chunk_id": "Leave_Policy_c006",
+      "chunk_index": 6,
+      "sub_split_index": 4,
+      "char_length": 309,
+      "estimated_tokens": 77
+    }
+  },
+  {
+    "chunk_id": "Leave_Policy_c007",
+    "text": "### 2.3 Sick & Medical Leave (SL)\n* Entitlement: **10 days** per calendar year.\n* Any consecutive sick leave exceeding **3 continuous working days** mandates a registered medical practitioner's fitness certificate submitted to HR within 48 hours of return.",
+    "metadata": {
+      "source": "Leave_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Leave_Policy.md",
+      "file_type": ".md",
+      "section": "2. Categories of Leave",
+      "section_index": 3,
+      "total_sections": 3,
+      "chunk_id": "Leave_Policy_c007",
+      "chunk_index": 7,
+      "sub_split_index": 5,
+      "char_length": 256,
+      "estimated_tokens": 64
+    }
+  },
+  {
+    "chunk_id": "Leave_Policy_c008",
+    "text": "### 2.4 Parental Leaves\n* **Maternity Leave:** 26 continuous weeks of fully paid leave for female employees for up to two surviving children.\n* **Paternity Leave:** 10 working days of fully paid leave, valid within 6 months following childbirth.",
+    "metadata": {
+      "source": "Leave_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Leave_Policy.md",
+      "file_type": ".md",
+      "section": "2. Categories of Leave",
+      "section_index": 3,
+      "total_sections": 3,
+      "chunk_id": "Leave_Policy_c008",
+      "chunk_index": 8,
+      "sub_split_index": 6,
+      "char_length": 245,
+      "estimated_tokens": 61
+    }
+  },
+  {
+    "chunk_id": "Remote_Work_Security_Policy_c001",
+    "text": "# Remote Work IT Security Policy\nSection 1.1: Home Wi-Fi Standards\nEmployees working remotely must ensure their home Wi-Fi is protected with WPA3 encryption. Default router passwords must be changed immediately.\n\nSection 1.2: VPN Mandatory Requirement\nAll access to internal company repositories and staging servers must be routed through the corporate WireGuard VPN at all times.",
+    "metadata": {
+      "source": "Remote_Work_Security_Policy.txt",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Remote_Work_Security_Policy.txt",
+      "file_type": ".txt",
+      "section": "Main",
+      "page": 1,
+      "chunk_id": "Remote_Work_Security_Policy_c001",
+      "chunk_index": 1,
+      "sub_split_index": 1,
+      "char_length": 380,
+      "estimated_tokens": 95
+    }
+  },
+  {
+    "chunk_id": "Travel_Policy_c001",
+    "text": "# Sentinel Global — Corporate Travel & Expense Policy\n\n**Document ID:** POL-OPS-2024-004  \n**Effective Date:** January 1, 2024  \n**Version:** 3.2  \n**Owner:** Global Operations & Finance Committee  \n\n---",
+    "metadata": {
+      "source": "Travel_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Travel_Policy.md",
+      "file_type": ".md",
+      "section": "Sentinel Global — Corporate Travel & Expense Policy",
+      "section_index": 1,
+      "total_sections": 6,
+      "chunk_id": "Travel_Policy_c001",
+      "chunk_index": 1,
+      "sub_split_index": 1,
+      "char_length": 203,
+      "estimated_tokens": 50
+    }
+  },
+  {
+    "chunk_id": "Travel_Policy_c002",
+    "text": "## 1. Purpose & Scope\nThis policy outlines the authorized expense limits, booking guidelines, and reimbursement procedures for Sentinel Global employees undertaking business travel. All domestic and international trips must be pre-approved by the respective Department Head via the Sentinel ERP portal.\n\n---",
+    "metadata": {
+      "source": "Travel_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Travel_Policy.md",
+      "file_type": ".md",
+      "section": "1. Purpose & Scope",
+      "section_index": 2,
+      "total_sections": 6,
+      "chunk_id": "Travel_Policy_c002",
+      "chunk_index": 2,
+      "sub_split_index": 1,
+      "char_length": 307,
+      "estimated_tokens": 76
+    }
+  },
+  {
+    "chunk_id": "Travel_Policy_c003",
+    "text": "## 2. Accommodation & Lodging Guidelines",
+    "metadata": {
+      "source": "Travel_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Travel_Policy.md",
+      "file_type": ".md",
+      "section": "2. Accommodation & Lodging Guidelines",
+      "section_index": 3,
+      "total_sections": 6,
+      "chunk_id": "Travel_Policy_c003",
+      "chunk_index": 3,
+      "sub_split_index": 1,
+      "char_length": 40,
+      "estimated_tokens": 10
+    }
+  },
+  {
+    "chunk_id": "Travel_Policy_c004",
+    "text": "### 2.1 Hotel Accommodation Limits\nEmployees travelling for approved business purposes can claim hotel accommodation up to **₹3,000 per night** (taxes inclusive).",
+    "metadata": {
+      "source": "Travel_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Travel_Policy.md",
+      "file_type": ".md",
+      "section": "2. Accommodation & Lodging Guidelines",
+      "section_index": 3,
+      "total_sections": 6,
+      "chunk_id": "Travel_Policy_c004",
+      "chunk_index": 4,
+      "sub_split_index": 2,
+      "char_length": 162,
+      "estimated_tokens": 40
+    }
+  },
+  {
+    "chunk_id": "Travel_Policy_c005",
+    "text": "* **Uniform Cap:** This limit of ₹3,000 per night applies uniformly across all domestic travel locations, cities, and regions. No exceptions or higher city tiers (including metropolitan zones such as Mumbai, Delhi NCR, or Bengaluru) are authorized under standard travel limits. Any booking exceeding ₹3,000 per night requires prior written sign-off from the Chief Financial Officer (CFO).",
+    "metadata": {
+      "source": "Travel_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Travel_Policy.md",
+      "file_type": ".md",
+      "section": "2. Accommodation & Lodging Guidelines",
+      "section_index": 3,
+      "total_sections": 6,
+      "chunk_id": "Travel_Policy_c005",
+      "chunk_index": 5,
+      "sub_split_index": 3,
+      "char_length": 388,
+      "estimated_tokens": 97
+    }
+  },
+  {
+    "chunk_id": "Travel_Policy_c006",
+    "text": "* **Booking Window:** Employees must book lodging at least 7 days prior to departure through the corporate travel desk.",
+    "metadata": {
+      "source": "Travel_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Travel_Policy.md",
+      "file_type": ".md",
+      "section": "2. Accommodation & Lodging Guidelines",
+      "section_index": 3,
+      "total_sections": 6,
+      "chunk_id": "Travel_Policy_c006",
+      "chunk_index": 6,
+      "sub_split_index": 4,
+      "char_length": 119,
+      "estimated_tokens": 29
+    }
+  },
+  {
+    "chunk_id": "Travel_Policy_c007",
+    "text": "### 2.2 Shared Accommodation\nWhen two employees of the same gender travel together on company assignment, they are encouraged to share twin-occupancy rooms with an enhanced combined cap of ₹4,500 per night.\n\n---",
+    "metadata": {
+      "source": "Travel_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Travel_Policy.md",
+      "file_type": ".md",
+      "section": "2. Accommodation & Lodging Guidelines",
+      "section_index": 3,
+      "total_sections": 6,
+      "chunk_id": "Travel_Policy_c007",
+      "chunk_index": 7,
+      "sub_split_index": 5,
+      "char_length": 211,
+      "estimated_tokens": 52
+    }
+  },
+  {
+    "chunk_id": "Travel_Policy_c008",
+    "text": "## 3. Daily Per Diem & Meals\nEmployees travelling outstation are entitled to a daily meal allowance of up to **₹800 per day**.\n* Itemized tax invoices (GSTIN compliant) must accompany every claim.\n* Alcohol, minibar charges, and personal laundry services are strictly non-reimbursable.\n\n---",
+    "metadata": {
+      "source": "Travel_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Travel_Policy.md",
+      "file_type": ".md",
+      "section": "3. Daily Per Diem & Meals",
+      "section_index": 4,
+      "total_sections": 6,
+      "chunk_id": "Travel_Policy_c008",
+      "chunk_index": 8,
+      "sub_split_index": 1,
+      "char_length": 290,
+      "estimated_tokens": 72
+    }
+  },
+  {
+    "chunk_id": "Travel_Policy_c009",
+    "text": "## 4. Transportation & Commute\n\n### 4.1 Air Travel\n* **Domestic:** Economy class only for flights under 6 hours duration.\n* **International:** Economy class for flights under 8 hours; Premium Economy for flights exceeding 8 hours with VP approval.",
+    "metadata": {
+      "source": "Travel_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Travel_Policy.md",
+      "file_type": ".md",
+      "section": "4. Transportation & Commute",
+      "section_index": 5,
+      "total_sections": 6,
+      "chunk_id": "Travel_Policy_c009",
+      "chunk_index": 9,
+      "sub_split_index": 1,
+      "char_length": 247,
+      "estimated_tokens": 61
+    }
+  },
+  {
+    "chunk_id": "Travel_Policy_c010",
+    "text": "### 4.2 Local City Transit\n* Employees may claim app-based taxi rides (e.g., Uber / Ola) up to **₹500 per day** for direct transit between hotel, client offices, and transit hubs.\n* Auto-rickshaw and public metro expenses are fully reimbursable upon submitting valid receipts or transit cards statement.\n\n---",
+    "metadata": {
+      "source": "Travel_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Travel_Policy.md",
+      "file_type": ".md",
+      "section": "4. Transportation & Commute",
+      "section_index": 5,
+      "total_sections": 6,
+      "chunk_id": "Travel_Policy_c010",
+      "chunk_index": 10,
+      "sub_split_index": 2,
+      "char_length": 308,
+      "estimated_tokens": 77
+    }
+  },
+  {
+    "chunk_id": "Travel_Policy_c011",
+    "text": "## 5. Expense Submission & Reimbursement Deadlines\nAll travel expense reports must be submitted within **30 days** of the conclusion of the business trip.\n* Claims submitted after 30 days will be automatically rejected by the automated payroll engine.\n* Original digital or scanned receipts must be uploaded for any item exceeding ₹100.",
+    "metadata": {
+      "source": "Travel_Policy.md",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Travel_Policy.md",
+      "file_type": ".md",
+      "section": "5. Expense Submission & Reimbursement Deadlines",
+      "section_index": 6,
+      "total_sections": 6,
+      "chunk_id": "Travel_Policy_c011",
+      "chunk_index": 11,
+      "sub_split_index": 1,
+      "char_length": 336,
+      "estimated_tokens": 84
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c001",
+    "text": "Hue Learn: Quantum Mechanics\n2026-08-10\nQuantum Mechanics\n1",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 1,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c001",
+      "chunk_index": 1,
+      "sub_split_index": 1,
+      "char_length": 59,
+      "estimated_tokens": 14
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c002",
+    "text": "Hue Learn: Quantum Mechanics\nDescription\nExplore the fundamental principles of quantum mechanics and discover how particles behave at the\natomic and subatomic scale.\n2",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 2,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c002",
+      "chunk_index": 2,
+      "sub_split_index": 1,
+      "char_length": 167,
+      "estimated_tokens": 41
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c003",
+    "text": "Hue Learn: Quantum Mechanics\nContents\n1 Course Structure .................................................................................................................................................... 4\n2 Classes ...................................................................................................................................................................... 5",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 3,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c003",
+      "chunk_index": 3,
+      "sub_split_index": 1,
+      "char_length": 386,
+      "estimated_tokens": 96
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c004",
+    "text": "3 Class Information .................................................................................................................................................. 6\n3.1 Introduction to Quantum World .................................................................................................................. 6\n3.1.1 Backward design .................................................................................................................................... 6",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 3,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c004",
+      "chunk_index": 4,
+      "sub_split_index": 2,
+      "char_length": 476,
+      "estimated_tokens": 119
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c005",
+    "text": "3.1.2 Disequilibrium ........................................................................................................................................ 6\n3.1.3 Perspective 1 ........................................................................................................................................... 6\n3.1.4 Perspective 2 ........................................................................................................................................... 8",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 3,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c005",
+      "chunk_index": 5,
+      "sub_split_index": 3,
+      "char_length": 483,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c006",
+    "text": "3.1.5 Perspective 3 ......................................................................................................................................... 10\n3.1.6 Perspective 4 ......................................................................................................................................... 11\n3.1.7 Perspective 5 ......................................................................................................................................... 14",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 3,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c006",
+      "chunk_index": 6,
+      "sub_split_index": 4,
+      "char_length": 482,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c007",
+    "text": "3.1.8 Perspective 6 ......................................................................................................................................... 15\n3.1.9 Perspective 7 ......................................................................................................................................... 17\n3.2 Fundamentals of Quantum Mechanics .................................................................................................... 19",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 3,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c007",
+      "chunk_index": 7,
+      "sub_split_index": 5,
+      "char_length": 463,
+      "estimated_tokens": 115
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c008",
+    "text": "3.2.1 Backward design .................................................................................................................................. 19\n3.2.2 Disequilibrium ...................................................................................................................................... 19\n3.2.3 Perspective 1 ......................................................................................................................................... 19",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 3,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c008",
+      "chunk_index": 8,
+      "sub_split_index": 6,
+      "char_length": 475,
+      "estimated_tokens": 118
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c009",
+    "text": "3.2.4 Perspective 2 ......................................................................................................................................... 20\n3.2.5 Perspective 3 ......................................................................................................................................... 20\n3.2.6 Perspective 4 ......................................................................................................................................... 20",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 3,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c009",
+      "chunk_index": 9,
+      "sub_split_index": 7,
+      "char_length": 482,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c010",
+    "text": "3.2.7 Perspective 5 ......................................................................................................................................... 20\n3.2.8 Perspective 6 ......................................................................................................................................... 20\n3.2.9 Perspective 7 ......................................................................................................................................... 21\n3",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 3,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c010",
+      "chunk_index": 10,
+      "sub_split_index": 8,
+      "char_length": 484,
+      "estimated_tokens": 121
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c011",
+    "text": "Hue Learn: Quantum Mechanics\n1 Course Structure\n• Quantum Mechanics\n• Understanding the Quantum World\n• Introduction to Quantum World\n• Quantum Technology: Fundamentals and Applications\n• Fundamentals of Quantum Mechanics\n4",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 4,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c011",
+      "chunk_index": 11,
+      "sub_split_index": 1,
+      "char_length": 223,
+      "estimated_tokens": 55
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c012",
+    "text": "Hue Learn: Quantum Mechanics\n2 Classes\nStatus Title Topic Concept Section Ideas\nComplete Introduction to\nQuantum World\nUnderstanding the\nQuantum World\nQuantum Me-\nchanics 8\nIn Progress\nFundamentals of\nQuantum Me-\nchanics\nQuantum Tech-\nnology: Funda-\nmentals and Ap-\nplications\nQuantum Me-\nchanics 8\n5",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 5,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c012",
+      "chunk_index": 12,
+      "sub_split_index": 1,
+      "char_length": 300,
+      "estimated_tokens": 75
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c013",
+    "text": "Hue Learn: Quantum Mechanics\n3 Class Information\n3.1 Introduction to Quantum World\n3.1.1 Backward design\nBig Idea\n•\nSurprising Idea\n•\nSub Ideas Left\n•\nSub Ideas Right\n•\n3.1.2 Disequilibrium\nSelected Idea\n• Surprising Idea\n3.1.2.1 Steps\n• Type: Animated_Image\n• Description: Animated Image\n• Talking Points:\n• Type: IO_Slide\n• Description: IO Slide\n• Talking Points: Quantum technology is moving from scientiﬁc discovery to strategic capability.-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 6,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c013",
+      "chunk_index": 13,
+      "sub_split_index": 1,
+      "char_length": 445,
+      "estimated_tokens": 111
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c014",
+    "text": "Today, we will understand its foundations, explore India's progress, examine defence applications,\nidentify emerging threats, and consider how we prepare\n3.1.3 Perspective 1\nSelected Idea\n• What is Quantum Mechanics?\n3.1.3.1 Steps\n• Type: Animated_Slide\n• Description: What Is Quantum Mechanics?\n• Talking Points: Let's begin with something fundamental: energy. In classical physics, we often\nimagine energy as something that can change continuously. But when we look inside an atom, nature",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 6,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c014",
+      "chunk_index": 14,
+      "sub_split_index": 2,
+      "char_length": 490,
+      "estimated_tokens": 122
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c015",
+    "text": "gives us a very diﬀerent picture..An electron in an atom cannot simply have any arbitrary energy. It\ncan occupy speciﬁc allowed energy states. When it moves between these states, the atom can absorb\nor emit a precise amount of energy..The diﬀerence between two allowed energy states corresponds\nto the energy carried by the photon. This is one of the clues that led physicists toward the quantum\ndescription of nature..This raises an important question. Why isn't the energy of an atomic system",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 6,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c015",
+      "chunk_index": 15,
+      "sub_split_index": 3,
+      "char_length": 494,
+      "estimated_tokens": 123
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c016",
+    "text": "simply continuous, like a ramp? Why does nature permit particular energy states instead?..This is\n6",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 6,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c016",
+      "chunk_index": 16,
+      "sub_split_index": 4,
+      "char_length": 99,
+      "estimated_tokens": 24
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c017",
+    "text": "Hue Learn: Quantum Mechanics\nwhere quantum mechanics enters. Quantum mechanics is the physical theory used to describe and\npredict the behaviour of matter and energy at atomic and subatomic scales..It doesn't just tell us that\nthe microscopic world is strange. It gives us a precise framework for describing quantum systems\nand predicting what we can observe experimentally.. \"But before we explore the other rules of quan-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 7,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c017",
+      "chunk_index": 17,
+      "sub_split_index": 1,
+      "char_length": 423,
+      "estimated_tokens": 105
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c018",
+    "text": "tum mechanics, let's step back and see exactly where this quantum world begins\n• Type: Animated_Diagram\n• Description: The Quantum Scale\n• Talking Points: Now we know where quantum mechanics takes us: to systems such as atoms,\nelectrons, and photons..But these systems do not always follow the rules we expect from everyday\nexperience..Let's begin with one of those rules: quantisation.\n• Type: Animated_Slide\n• Description: Quantisation — When Energy Comes in Steps",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 7,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c018",
+      "chunk_index": 18,
+      "sub_split_index": 2,
+      "char_length": 466,
+      "estimated_tokens": 116
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c019",
+    "text": "• Type: Animated_Slide\n• Description: Quantisation — When Energy Comes in Steps\n• Talking Points: In our everyday experience, energy can change smoothly An object can gain a\nlittle energy, then a little more, without needing to jump between ﬁxed values..But in an atom, an\nelectron cannot have just any energy It can occupy only certain allowed energy levels..This idea\nis called quantisation Instead of a continuous range of possible values, nature allows speciﬁc val-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 7,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c019",
+      "chunk_index": 19,
+      "sub_split_index": 3,
+      "char_length": 469,
+      "estimated_tokens": 117
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c020",
+    "text": "ues..An electron can move to a higher energy level by absorbing the right amount of energy When it\nreturns to a lower level, it can release that energy as a photon..Because the allowed energy levels are\nspeciﬁc, the emitted photons can also have speciﬁc energies This helps explain why atoms produce\ncharacteristic spectral lines..So quantisation means that certain physical quantities can have speciﬁc",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 7,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c020",
+      "chunk_index": 20,
+      "sub_split_index": 4,
+      "char_length": 402,
+      "estimated_tokens": 100
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c021",
+    "text": "allowed values At the quantum scale, nature is not always a smooth continuum..But quantisation is\nonly the beginning.Quantum systems can involve more than one possible state—and that leads us\nto our next idea: superposition\n• Type: Animated_Slide\n• Description: Superposition — More Than One Possible State\n• Talking Points: A quantum system can have more than one possible state..Before measurement,\nquantum mechanics can describe the system as a combination of these possible states..This is dif-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 7,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c021",
+      "chunk_index": 21,
+      "sub_split_index": 5,
+      "char_length": 498,
+      "estimated_tokens": 124
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c022",
+    "text": "ferent from our everyday experience, in the classical world, we usually describe an object as being\nin one deﬁnite state..Quantum systems can be described diﬀerently..When we measure the system,\nwe obtain a particular outcome..This idea is called superposition: a quantum system can exist in a\ncombination of possible states until measurement..But what happens when two quantum systems\nbecome connected in a way that links their behaviour?.That leads us to our next idea: entanglement.",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 7,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c022",
+      "chunk_index": 22,
+      "sub_split_index": 6,
+      "char_length": 485,
+      "estimated_tokens": 121
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c023",
+    "text": "• Type: Animated_Slide\n• Description: Entanglement — When Quantum Systems Become Connected\n• Talking Points: Now imagine that we have two quantum systems..Under certain conditions, these\ntwo systems can become entangled..When we measure them, their results can show strong corre-\nlations..What makes this surprising is that these quantum correlations cannot be fully explained\nusing classical physics alone..Entanglement means that two quantum systems can share correlations",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 7,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c023",
+      "chunk_index": 23,
+      "sub_split_index": 7,
+      "char_length": 474,
+      "estimated_tokens": 118
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c024",
+    "text": "that are fundamentally diﬀerent from ordinary classical correlations..But there is another important\nquestion: what happens when we actually measure a quantum system? Let's look at measurement.\n7",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 7,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c024",
+      "chunk_index": 24,
+      "sub_split_index": 8,
+      "char_length": 195,
+      "estimated_tokens": 48
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c025",
+    "text": "Hue Learn: Quantum Mechanics\n• Type: Animated_Slide\n• Description: Measurement — From Possibilities to Outcomes\n• Talking Points: Before measurement, a quantum system can have several possible outcomes..Quan-\ntum mechanics tells us the probability of obtaining each possible outcome..When we measure the\nsystem, we obtain one particular result..We do not observe all the possible results at once..We ob-\ntain one outcome..Measurement also changes the quantum state..The system after measurement is",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 8,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c025",
+      "chunk_index": 25,
+      "sub_split_index": 1,
+      "char_length": 497,
+      "estimated_tokens": 124
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c026",
+    "text": "described diﬀerently from the system before measurement.So quantum mechanics does not simply\ntell us what will happen.It tells us the probabilities of diﬀerent outcomes, and measurement gives\nus one of them.Quantisation, superposition, entanglement, and measurement give us a new way to\ndescribe nature.But understanding these ideas is only the beginning.They can also become the foun-\ndation for new ways of processing information and building technology.That takes us from quantum",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 8,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c026",
+      "chunk_index": 26,
+      "sub_split_index": 2,
+      "char_length": 482,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c027",
+    "text": "mechanics to quantum information\n• Type: Animated_Diagram\n• Description: From Science to Technology\n• Talking Points: We have explored four important ideas: quantisation, superposition, entanglement,\nand measurement Together, they form part of the foundation of quantum mechanics..But these\nprinciples are not only used to describe nature They can also be used to represent and process infor-\nmation in fundamentally diﬀerent ways This is the foundation of quantum information..Quantum",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 8,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c027",
+      "chunk_index": 27,
+      "sub_split_index": 3,
+      "char_length": 485,
+      "estimated_tokens": 121
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c028",
+    "text": "information provides the foundation for a new generation of technologies These include quantum\ncomputing, quantum communication, and quantum sensing..As these technologies mature, they can\ncreate new capabilities across science, industry, security, and other strategic areas.\n• Type: Animated_Diagram\n• Description: Quantum Mechanics as a Predictive Framework\n• Talking Points: Quantum mechanics is a framework for predicting what can happen in systems",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 8,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c028",
+      "chunk_index": 28,
+      "sub_split_index": 4,
+      "char_length": 452,
+      "estimated_tokens": 113
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c029",
+    "text": "such as atoms, electrons, and photons..It does not always predict one deﬁnite result before an ob-\nservation Instead, it assigns probabilities to the possible results..When many identically prepared\nsystems are measured, the observed pattern can be compared with those predicted probabilities..This\nagreement between predicted patterns and experimental results is one reason quantum mechanics\nis such a powerful description of the quantum world.\n• Type: IO_Slide\n• Description: IO Slide",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 8,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c029",
+      "chunk_index": 29,
+      "sub_split_index": 5,
+      "char_length": 486,
+      "estimated_tokens": 121
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c030",
+    "text": "• Type: IO_Slide\n• Description: IO Slide\n• Talking Points: Before we discuss quantum technology, we need to understand the science behind\nit.Let us see how the strange behaviour of matter at the smallest scales creates entirely new techno-\nlogical possibilities\n3.1.4 Perspective 2\nSelected Idea\n• Beneﬁts of Quantum Mechanics\n3.1.4.1 Steps\n• Type: Animated_Slide\n• Description: From Quantum Phenomenon to Capability\n8",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 8,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c030",
+      "chunk_index": 30,
+      "sub_split_index": 6,
+      "char_length": 418,
+      "estimated_tokens": 104
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c031",
+    "text": "Hue Learn: Quantum Mechanics\n• Talking Points: A quantum beneﬁt starts with a real phenomenon that behaves diﬀerently from\neveryday physics..Scientists identify that behavior ﬁrst, because the phenomenon itself is the source\nof the advantage..Next, the phenomenon is shaped into a technology that can be controlled and ap-\nplied..That technology then delivers a speciﬁc capability that solves a practical problem..The value\nof quantum mechanics comes from this clear path from nature to use.",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 9,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c031",
+      "chunk_index": 31,
+      "sub_split_index": 1,
+      "char_length": 491,
+      "estimated_tokens": 122
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c032",
+    "text": "of quantum mechanics comes from this clear path from nature to use.\n• Type: Animated_Slide\n• Description: Quantum Key Distribution\n• Talking Points: Quantum Key Distribution, or QKD, uses quantum states to create shared crypto-\ngraphic keys between two parties..The key idea is that the security comes from quantum behavior,\nnot from hiding the transmission itself..If someone tries to intercept the quantum information, the",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 9,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c032",
+      "chunk_index": 32,
+      "sub_split_index": 2,
+      "char_length": 424,
+      "estimated_tokens": 106
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c033",
+    "text": "disturbance can reveal that the channel was touched..That detection feature makes QKD a new model\nfor secure communication at the quantum level..Instead of trusting only complex codes, QKD adds\nsecurity through the physics of measurement and disturbance.\n• Type: Animated_Slide\n• Description: Precision Timing and Quantum Sensing\n• Talking Points: Quantum sensing can measure time intervals with exceptional precision by re-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 9,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c033",
+      "chunk_index": 33,
+      "sub_split_index": 3,
+      "char_length": 424,
+      "estimated_tokens": 106
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c034",
+    "text": "sponding to tiny quantum changes..That sensitivity makes it useful when even a small timing error\ncan aﬀect a larger system..Precise timing from quantum eﬀects can support navigation and other\nmeasurements that depend on stable time references..The advantage comes from detecting tiny shifts\nthat conventional sensors may struggle to resolve.\n• Type: Animated_Slide\n• Description: Quantum Computing\n• Talking Points: Quantum computers use quantum principles to process information in ways that",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 9,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c034",
+      "chunk_index": 34,
+      "sub_split_index": 4,
+      "char_length": 493,
+      "estimated_tokens": 123
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c035",
+    "text": "diﬀer from classical machines..For some tasks, that diﬀerence can open up potential advantages in\nspeed or approach..Those advantages are problem-speciﬁc, so they do not apply to every kind of\ncomputation..The real beneﬁt depends on the algorithm, the hardware, and how well they work\ntogether.\n• Type: Animated_Slide\n• Description: Quantum Materials & Devices\n• Talking Points: Quantum technologies rely on specialised materials that support unusual behav-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 9,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c035",
+      "chunk_index": 35,
+      "sub_split_index": 5,
+      "char_length": 457,
+      "estimated_tokens": 114
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c036",
+    "text": "iour at tiny scales..Highly sensitive detectors can register faint signals that ordinary instruments\nwould miss..Advanced photonic components help guide and shape light for quantum control and\ncommunication..Specialised quantum devices generate, control, detect, or manipulate quantum\nstates with precision.\n• Type: Animated_Slide\n• Description: Strategic Beneﬁts of Quantum Technologies\n• Talking Points: Governments watch quantum technologies because they can reshape what a coun-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 9,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c036",
+      "chunk_index": 36,
+      "sub_split_index": 6,
+      "char_length": 482,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c037",
+    "text": "try can do in secure communication, measurement, and computation..No single quantum capability\ncreates the full advantage on its own, but together they build stronger strategic options..Quantum\ncomputing, communication, sensing, and specialised devices each strengthen a diﬀerent national\n9",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 9,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c037",
+      "chunk_index": 37,
+      "sub_split_index": 7,
+      "char_length": 290,
+      "estimated_tokens": 72
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c038",
+    "text": "Hue Learn: Quantum Mechanics\ncapability..That combination matters when a country wants control over critical tools instead of\ndepending on others..So the beneﬁt is not only scientiﬁc progress, but also greater technological\nsovereignty.\n• Type: Activity\n• Description: Quantum Capability for National Security\n• Talking Points: This is a polling activity..Check which quantum capability could have the greatest\nimpact on national security.\n• Type: IO_Slide\n• Description: IO Slide",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 10,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c038",
+      "chunk_index": 38,
+      "sub_split_index": 1,
+      "char_length": 480,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c039",
+    "text": "impact on national security.\n• Type: IO_Slide\n• Description: IO Slide\n• Talking Points: Quantum phenomena become powerful when transformed into technology.From\ncomputing and secure communication to sensing and precision measurement, these capabilities\ncould reshape how nations solve problems and protect critical systems\n3.1.5 Perspective 3\nSelected Idea\n• National Quantum Mission\n3.1.5.1 Steps\n• Type: Animated_Slide\n• Description: Why India Needed a Mission",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 10,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c039",
+      "chunk_index": 39,
+      "sub_split_index": 2,
+      "char_length": 461,
+      "estimated_tokens": 115
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c040",
+    "text": "3.1.5.1 Steps\n• Type: Animated_Slide\n• Description: Why India Needed a Mission\n• Talking Points: India needed more than isolated research projects to build quantum technology\nat scale..A national programme can align funding, infrastructure, and skilled people over the long\nterm..Universities, industry, and government must work together to develop multiple quantum do-\nmains in parallel..Without a common framework, expertise and resources stay fragmented across",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 10,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c040",
+      "chunk_index": 40,
+      "sub_split_index": 3,
+      "char_length": 463,
+      "estimated_tokens": 115
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c041",
+    "text": "institutions..The National Quantum Mission was created to unite these eﬀorts and strengthen in-\ndigenous quantum capability.\n• Type: Animated_Slide\n• Description: National Quantum Mission at a Glance\n• Talking Points: The National Quantum Mission was approved by the Union Cabinet on 19 April\n2023 as a long-term national programme..Its total outlay is 6,003 point 65 crore for the period from\n2023–24 to 2030–31..The mission is implemented by the Department of Science and Technology,",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 10,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c041",
+      "chunk_index": 41,
+      "sub_split_index": 4,
+      "char_length": 485,
+      "estimated_tokens": 121
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c042",
+    "text": "which gives it a clear national home..Its purpose is to seed, nurture, and scale up quantum research\nand industry development across India.\n• Type: Animated_Slide\n• Description: Four Quantum Pillars\n• Talking Points: India’s National Quantum Mission rests on four core pillars that organize the\ncountry’s quantum priorities..Quantum Computing focuses on building machines that can handle\ncertain problems in fundamentally new ways..Quantum Communication aims to protect information",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 10,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c042",
+      "chunk_index": 42,
+      "sub_split_index": 5,
+      "char_length": 481,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c043",
+    "text": "using quantum principles that strengthen secure links..Quantum Sensing and Metrology sharpen\nmeasurement, while Quantum Materials and Devices support the hardware behind the mission.\n10",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 10,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c043",
+      "chunk_index": 43,
+      "sub_split_index": 6,
+      "char_length": 185,
+      "estimated_tokens": 46
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c044",
+    "text": "Hue Learn: Quantum Mechanics\n• Type: Animated_Image\n• Description: What Is India Trying to Build?\n• Talking Points: India’s National Quantum Mission aims to turn broad quantum goals into concrete\ntechnologies that can be built and tested..Quantum computers are one target because they promise\nnew ways to solve certain problems that strain ordinary machines..Secure communication, multi-\nnode quantum networks, and quantum repeaters focus on moving quantum information reliably",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 11,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c044",
+      "chunk_index": 44,
+      "sub_split_index": 1,
+      "char_length": 477,
+      "estimated_tokens": 119
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c045",
+    "text": "over distance..Quantum memories, quantum sensors, and atomic clocks support the mission by stor-\ning, detecting, and timing quantum signals with precision.\n• Type: Animated_Slide\n• Description: India’s Quantum Hubs\n• Talking Points: The National Quantum Mission assigns each major quantum pillar to a specialised\nhub led by a major Indian institution..This structure concentrates expertise where it is strongest,",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 11,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c045",
+      "chunk_index": 45,
+      "sub_split_index": 2,
+      "char_length": 412,
+      "estimated_tokens": 103
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c046",
+    "text": "so research teams can move faster from ideas to working systems..IISc Bengaluru leads Quantum\nComputing, IIT Madras with C-DOT leads Quantum Communication, IIT Bombay leads Quantum\nSensing and Metrology, and IIT Delhi leads Quantum Materials and Devices..These hubs turn a na-\ntional mission into focused programmes with clear leadership, clearer responsibility, and stronger\ncollaboration across institutions.\n• Type: Animated_Slide\n• Description: From Mission to Demonstration",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 11,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c046",
+      "chunk_index": 46,
+      "sub_split_index": 3,
+      "char_length": 478,
+      "estimated_tokens": 119
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c047",
+    "text": "• Type: Animated_Slide\n• Description: From Mission to Demonstration\n• Talking Points: A national mission starts by setting a clear direction for quantum work across the\ncountry..Research then turns that direction into testable ideas and practical prototypes..Infrastruc-\nture gives those ideas the facilities and tools needed to become working systems..Demonstration\nshows the results in practice, so the mission produces measurable outcomes..Policy, research, infra-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 11,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c047",
+      "chunk_index": 47,
+      "sub_split_index": 4,
+      "char_length": 467,
+      "estimated_tokens": 116
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c048",
+    "text": "structure, and demonstration form one connected path from vision to reality.\n• Type: IO_Slide\n• Description: IO Slide\n• Talking Points: India has moved beyond observing the global quantum race.Through the National\nQuantum Mission, the country is building research, infrastructure, talent and indigenous capabilities\nacross four strategic quantum domains\n3.1.6 Perspective 4\nSelected Idea\n• India’s Initiatives in Quantum Technology\n3.1.6.1 Steps\n• Type: Animated_Slide",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 11,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c048",
+      "chunk_index": 48,
+      "sub_split_index": 5,
+      "char_length": 468,
+      "estimated_tokens": 117
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c049",
+    "text": "3.1.6.1 Steps\n• Type: Animated_Slide\n• Description: India Is Already Building\n• Talking Points: India’s quantum ecosystem is already taking shape through research labs, startup\nactivity, and government-backed programs..Universities and national institutions are building skills\nin computing, sensing, communication, and device development..This wider base matters because\n11",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 11,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c049",
+      "chunk_index": 49,
+      "sub_split_index": 6,
+      "char_length": 374,
+      "estimated_tokens": 93
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c050",
+    "text": "Hue Learn: Quantum Mechanics\nquantum progress depends on people, partnerships, and experimental capacity, not just a single mis-\nsion..The result is an ecosystem that can turn scientiﬁc interest into practical capability over time.\n• Type: Animated_Slide\n• Description: DRDO: From Quantum Research to Field Validation\n• Talking Points: DRDO advances indigenous quantum technologies for defence needs, moving",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 12,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c050",
+      "chunk_index": 50,
+      "sub_split_index": 1,
+      "char_length": 407,
+      "estimated_tokens": 101
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c051",
+    "text": "beyond laboratory investigation toward systems that can be tested in realistic conditions..Its Quan-\ntum Technology Research Centre supports specialised research and characterisation of components\nsuch as single-photon sources and quantum communication technologies..Quantum Key Distribu-\ntion uses quantum states to establish shared secret keys, making attempted interception detectable\nand therefore valuable for secure defence communications..Quantum random-number generation",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 12,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c051",
+      "chunk_index": 51,
+      "sub_split_index": 2,
+      "char_length": 478,
+      "estimated_tokens": 119
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c052",
+    "text": "can provide unpredictable cryptographic inputs, while single-photon technologies supply crucial\nbuilding blocks for quantum communication experiments..DRDO also explores quantum sensing for\nhighly precise navigation, timing, detection, and measurement, then validates promising technolo-\ngies through demonstrations and ﬁeld-level trials.\n• Type: Animated_Slide\n• Description: ISRO’s 300-Metre Quantum Communication Demonstration",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 12,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c052",
+      "chunk_index": 52,
+      "sub_split_index": 3,
+      "char_length": 429,
+      "estimated_tokens": 107
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c053",
+    "text": "• Description: ISRO’s 300-Metre Quantum Communication Demonstration\n• Talking Points: Quantum principles enable QKD, a method for creating shared secret keys whose\nsecurity can reveal interference during transmission..ISRO demonstrated indigenous free-space QKD\nacross 300 metres between two buildings at the Space Applications Centre in Ahmedabad..A NavIC\nreceiver provided time synchronisation between transmitter and receiver, an essential requirement",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 12,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c053",
+      "chunk_index": 53,
+      "sub_split_index": 4,
+      "char_length": 454,
+      "estimated_tokens": 113
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c054",
+    "text": "for correctly matching quantum signals..The quantum-generated keys encrypted a live videocon-\nference, connecting key generation to secure data transmission in an integrated system..Single and\nentangled photon sources, optical alignment, and communication protocols are building blocks for\nlonger links and future satellite-based quantum communication..This 300-metre result was a tech-\nnology demonstration, not an operational satellite QKD network, but it marks a signiﬁcant step",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 12,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c054",
+      "chunk_index": 54,
+      "sub_split_index": 5,
+      "char_length": 481,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c055",
+    "text": "toward space applications.\n• Type: Animated_Slide\n• Description: C-DOT: Indigenous QKD to Quantum-Safe Networks\n• Talking Points: C-DOT, the telecom technology centre under the Department of Telecommuni-\ncations, is advancing indigenous tools for secure quantum-era communications..Its ﬁbre-based\nQuantum Key Distribution allows two endpoints to establish shared secret keys using carefully\ntransmitted quantum states..An attempt to intercept or disturb the quantum channel produces de-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 12,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c055",
+      "chunk_index": 55,
+      "sub_split_index": 6,
+      "char_length": 486,
+      "estimated_tokens": 121
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c056",
+    "text": "tectable anomalies, alerting users that the key exchange may be compromised..Because the system\noperates over standard single-mode optical ﬁbre, quantum security can build on existing communi-\ncation infrastructure rather than requiring separate networks..C-DOT also combines post-quantum\nencryption, including ML-KEM and ML-DSA, with QKD key loading to create hybrid protection for\ncritical networks.\n• Type: Animated_Slide\n• Description: India’s Quantum Startup Ecosystem",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 12,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c056",
+      "chunk_index": 56,
+      "sub_split_index": 7,
+      "char_length": 473,
+      "estimated_tokens": 118
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c057",
+    "text": "• Type: Animated_Slide\n• Description: India’s Quantum Startup Ecosystem\n• Talking Points: India’s quantum eﬀort is expanding from public laboratories and universities\ninto deep-tech startups that can turn research results into deployable products..DST has supported\n12",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 12,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c057",
+      "chunk_index": 57,
+      "sub_split_index": 8,
+      "char_length": 268,
+      "estimated_tokens": 67
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c058",
+    "text": "Hue Learn: Quantum Mechanics\neight startups under the National Quantum Mission, including QNu Labs, QpiAI, Dimira Technolo-\ngies, PRENISHQ, QuPrayog, Pristine Diamonds, Quanastra, and Quan2D Technologies..These ﬁrms\nspan quantum communication and computing as well as enabling capabilities such as cryogenics,\nprecision lasers, atomic clocks, detectors, and quantum materials..QNu Labs illustrates the route\nto deployment through quantum-safe cybersecurity, reporting a 150-kilometre QKD system, Army",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 13,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c058",
+      "chunk_index": 58,
+      "sub_split_index": 1,
+      "char_length": 500,
+      "estimated_tokens": 125
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c059",
+    "text": "trials, Navy supply, and a 500-kilometre ﬁbre network demonstration..By linking mission support,\nresearch institutions, startup innovation, and real-world use, this ecosystem strengthens indigenous\ncapability and reduces dependence on external suppliers.\n• Type: Animated_Slide\n• Description: QNu Labs: Scaling QKD from 150 km to 500 km\n• Talking Points: QNu Labs provides a concrete example of how quantum-key-distribution systems",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 13,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c059",
+      "chunk_index": 59,
+      "sub_split_index": 2,
+      "char_length": 431,
+      "estimated_tokens": 107
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c060",
+    "text": "are tested at progressively larger network scales: it reported a 150-km QKD system using trusted\nnodes, followed by a 500-km QKD network over existing optical-ﬁbre infrastructure..The compari-\nson matters because a laboratory link is not the same as a network deployment Extending distance\nrequires the system to maintain secure key exchange across real ﬁbre routes while managing the\nnetwork architecture between endpoints..Its reported trials and supplies to Indian defence users",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 13,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c060",
+      "chunk_index": 60,
+      "sub_split_index": 3,
+      "char_length": 481,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c061",
+    "text": "show the evidence pathway for a quantum-security system: build a prototype, demonstrate it over a\nnetwork, and evaluate it with intended users..QNu Labs: Scaling QKD from 150 km to 500 km starts\nwith the main idea learners need before the details can make sense.\n• Type: Animated_Slide\n• Description: India’s Push for Quantum Sensors and Metrology\n• Talking Points: India’s quantum research includes sensors that use controlled atoms, photons, or",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 13,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c061",
+      "chunk_index": 61,
+      "sub_split_index": 4,
+      "char_length": 446,
+      "estimated_tokens": 111
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c062",
+    "text": "solid-state quantum systems to detect extremely small physical changes..Quantum metrology fo-\ncuses on making measurements more precise, including time, magnetic ﬁelds, acceleration, gravity,\nand other environmental signals..Indian research groups are developing enabling components such\nas stable lasers, atomic systems, photon detectors, and low-noise control electronics..Unlike quantum\ncommunication experiments, sensor development is judged by measurement sensitivity, stability,",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 13,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c062",
+      "chunk_index": 62,
+      "sub_split_index": 5,
+      "char_length": 484,
+      "estimated_tokens": 121
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c063",
+    "text": "calibration, and reliable operation outside the laboratory..Building these capabilities domestically\nstrengthens India’s capacity to design, test, and eventually deploy precision quantum instruments.\n• Type: Web_Element\n• Description: India’s Quantum Defence Ecosystem\n• Talking Points: Match each organisation to the capability it contributes..As the links are made, the\necosystem grows from research to strategic capability.\n• Type: IO_Slide\n• Description: IO Slide",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 13,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c063",
+      "chunk_index": 63,
+      "sub_split_index": 6,
+      "char_length": 467,
+      "estimated_tokens": 116
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c064",
+    "text": "• Type: IO_Slide\n• Description: IO Slide\n• Talking Points: But a national mission is only the beginning.Across DRDO, ISRO, C-DOT, research\ninstitutions and startups, India is turning quantum research into demonstrations, technologies and\nemerging strategic capabilities\n13",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 13,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c064",
+      "chunk_index": 64,
+      "sub_split_index": 7,
+      "char_length": 272,
+      "estimated_tokens": 68
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c065",
+    "text": "Hue Learn: Quantum Mechanics\n3.1.7 Perspective 5\nSelected Idea\n• Quantum Relevance in Military Applications\n3.1.7.1 Steps\n• Type: Animated_Image\n• Description: Quantum Computing\n• Talking Points:  Quantum computing may help defence teams compare many possible routes,\nschedules, and constraints faster than classical methods in some hard planning problems..Logistics\noptimisation could improve how supplies, transport, and maintenance are allocated when choices",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 14,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c065",
+      "chunk_index": 65,
+      "sub_split_index": 1,
+      "char_length": 461,
+      "estimated_tokens": 115
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c066",
+    "text": "multiply across a large operation..Mission planning and simulation may beneﬁt from better handling\nof complex scenarios, though current quantum hardware is still limited and error-prone..Research\ninto cryptanalysis and materials could also reveal future military value, especially where very large\nsearch spaces are involved.\n• Type: Animated_Slide\n• Description: Quantum Communication\n• Talking Points: Quantum communication matters in defence because sensitive messages need",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 14,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c066",
+      "chunk_index": 66,
+      "sub_split_index": 2,
+      "char_length": 476,
+      "estimated_tokens": 119
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c067",
+    "text": "protection even when interception is attempted..Quantum Key Distribution creates shared crypto-\ngraphic keys by relying on quantum behaviour rather than secrecy in the channel itself..If an\neavesdropper disturbs the quantum states, the parties can detect that the key exchange may have\nbeen compromised..That makes QKD relevant for military communication links that must stay se-\ncure under future threats to conventional encryption..In India, defence and space organisations are",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 14,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c067",
+      "chunk_index": 67,
+      "sub_split_index": 3,
+      "char_length": 479,
+      "estimated_tokens": 119
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c068",
+    "text": "exploring this area to strengthen trusted communication systems.\n• Type: Animated_Slide\n• Description: Quantum Sensing for Defence Awareness\n• Talking Points: Quantum sensors use carefully controlled quantum states to measure tiny changes\nthat conventional instruments may struggle to distinguish..In defence settings, unusually precise\nmeasurements could strengthen awareness of position, time, motion, and nearby physical condi-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 14,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c068",
+      "chunk_index": 68,
+      "sub_split_index": 4,
+      "char_length": 430,
+      "estimated_tokens": 107
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c069",
+    "text": "tions..Atomic clocks are a prominent example, providing highly stable timing that can support\ncoordination among systems operating together..Sensitive magnetic or gravity measurements may\nreveal subtle features of the environment that add context to other observations..These are emerging\napplications, so their practical value depends on reliability, engineering maturity, and integration\nwith established systems.\n• Type: Animated_Slide",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 14,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c069",
+      "chunk_index": 69,
+      "sub_split_index": 5,
+      "char_length": 438,
+      "estimated_tokens": 109
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c070",
+    "text": "with established systems.\n• Type: Animated_Slide\n• Description: Military Quantum Capability Requires Systems Integration\n• Talking Points: A quantum device becomes operationally useful only when it connects reliably\nwith existing platforms, networks, software, and command procedures..Interfaces must translate\nquantum-generated measurements or keys into information that personnel and conventional\nsystems can use securely..Field deployment also demands calibration, maintenance, power, environ-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 14,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c070",
+      "chunk_index": 70,
+      "sub_split_index": 6,
+      "char_length": 496,
+      "estimated_tokens": 124
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c071",
+    "text": "mental control, and trained operators, not merely impressive laboratory performance..Defence value\ntherefore depends on integrating quantum capabilities into a dependable whole that supports deci-\nsions and operations under real conditions.\n14",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 14,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c071",
+      "chunk_index": 71,
+      "sub_split_index": 7,
+      "char_length": 243,
+      "estimated_tokens": 60
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c072",
+    "text": "Hue Learn: Quantum Mechanics\n• Type: Animated_Slide\n• Description: Assessing Quantum Claims in Defence\n• Talking Points: Defence decisions should separate demonstrated quantum capabilities from early\nresearch claims, because operational value depends on evidence rather than excitement..A useful\nassessment asks which mission problem is being addressed, what performance improvement is ex-\npected, and under which conditions it can be veriﬁed..Quantum advantages may be narrow, so",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 15,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c072",
+      "chunk_index": 72,
+      "sub_split_index": 1,
+      "char_length": 480,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c073",
+    "text": "planners must compare them with capable conventional alternatives instead of assuming every task\nneeds a quantum solution..Reliability, environmental tolerance, cost, training needs, and security\nrequirements all shape whether a promising quantum system is suitable for defence use..Careful\nevaluation supports realistic investment choices and prevents a technology label from being mis-\ntaken for an immediate military capability.\n• Type: IO_Slide\n• Description: IO Slide",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 15,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c073",
+      "chunk_index": 73,
+      "sub_split_index": 2,
+      "char_length": 472,
+      "estimated_tokens": 118
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c074",
+    "text": "• Type: IO_Slide\n• Description: IO Slide\n• Talking Points: Now we move from technology to the battleﬁeld.Quantum computing, com-\nmunication, sensing and specialised devices could inﬂuence military operations—from secure\ncommunications and navigation to optimisation, timing, detection and future strategic systems\n• Type: Activity\n• Description: Military Quantum Uses\n• Talking Points: This is a quiz activity..Check military uses of quantum computing, communication,\nand sensing.",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 15,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c074",
+      "chunk_index": 74,
+      "sub_split_index": 3,
+      "char_length": 480,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c075",
+    "text": "and sensing.\n3.1.8 Perspective 6\nSelected Idea\n• Quantum Threat to Air Force Operations\n3.1.8.1 Steps\n• Type: Animated_Slide\n• Description: Where Is the Threat?\n• Talking Points: Air operations rely on a connected ecosystem linking aircraft, data links, ground\nstations, satellites, and command-and-control systems..The central risk is not a quantum computer\ndirectly attacking an aircraft, but weakening security across these connected layers..Secure commu-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 15,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c075",
+      "chunk_index": 75,
+      "sub_split_index": 4,
+      "char_length": 458,
+      "estimated_tokens": 114
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c076",
+    "text": "nications, identity checks, digital signatures, and protected data exchange may depend on public-key\ncryptography..A suﬃciently capable future quantum computer could threaten some widely used\npublic-key cryptographic systems supporting these functions..Mapping cryptography across hard-\nware, software, and services is essential before an Air Force can prioritize quantum-safe migration.\n• Type: Animated_Slide\n• Description: Why a Future Quantum Capability Matters Now",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 15,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c076",
+      "chunk_index": 76,
+      "sub_split_index": 5,
+      "char_length": 469,
+      "estimated_tokens": 117
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c077",
+    "text": "• Description: Why a Future Quantum Capability Matters Now\n• Talking Points: Quantum computing is not an immediate weapon against an aircraft, but future ca-\npability can create risks that require decisions well before deployment..Air Force platforms, support\nequipment, and mission systems often remain in service for decades, making late security changes\ndiﬃcult and costly..A threat assessment must compare the expected arrival of capable quantum sys-\n15",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 15,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c077",
+      "chunk_index": 77,
+      "sub_split_index": 6,
+      "char_length": 457,
+      "estimated_tokens": 114
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c078",
+    "text": "Hue Learn: Quantum Mechanics\ntems with the time needed to inventory, test, certify, and replace vulnerable components..Operational\nleaders therefore treat quantum risk as a readiness and modernization issue rather than waiting for\na dramatic single attack..Early planning preserves mission continuity by allowing upgrades to be\nintroduced deliberately across complex air operations.\n• Type: Animated_Slide\n• Description: Harvest Now, Decrypt Later",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 16,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c078",
+      "chunk_index": 78,
+      "sub_split_index": 1,
+      "char_length": 447,
+      "estimated_tokens": 111
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c079",
+    "text": "• Type: Animated_Slide\n• Description: Harvest Now, Decrypt Later\n• Talking Points: An adversary can collect encrypted Air Force information today without being able\nto read or break it at the time of capture..Operational communications, intelligence, mission data,\ntechnical records, and classiﬁed material may retain strategic value long after their original trans-\nmission..Captured ciphertext can be stored for years, awaiting a future quantum capability that could",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 16,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c079",
+      "chunk_index": 79,
+      "sub_split_index": 2,
+      "char_length": 468,
+      "estimated_tokens": 117
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c080",
+    "text": "make some currently used encryption vulnerable..The critical risk is delayed disclosure, because\ninformation that must remain conﬁdential for decades can be exposed long after collection..NIST\nhighlights this harvest-now risk and notes that moving to new cryptographic standards can take\nyears, so preparation cannot wait.\n• Type: Animated_Slide\n• Description: Quantum Sensing and Air Force PNT Resilience",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 16,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c080",
+      "chunk_index": 80,
+      "sub_split_index": 3,
+      "char_length": 405,
+      "estimated_tokens": 101
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c081",
+    "text": "• Description: Quantum Sensing and Air Force PNT Resilience\n• Talking Points: Air operations often depend on satellite-based positioning, navigation, and timing,\ncreating vulnerability when GNSS signals are jammed, degraded, or unavailable..Quantum sensors\nuse sensitive quantum states to detect exceptionally small changes in gravity, magnetic ﬁelds, ac-\nceleration, or time..Future quantum-enabled PNT could help aircraft navigate or maintain timing",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 16,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c081",
+      "chunk_index": 81,
+      "sub_split_index": 4,
+      "char_length": 451,
+      "estimated_tokens": 112
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c082",
+    "text": "by complementing satellite signals with onboard physical measurements..More precise sensing may\nalso strengthen detection, tracking, and situational awareness when operational conditions make\nconventional measurements less reliable..These capabilities are not yet routine defence systems,\nso India must prepare through engineering, testing, and validation before relying on them opera-\ntionally.\n• Type: Animated_Slide\n• Description: Quantum Threat to Air Force Authentication",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 16,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c082",
+      "chunk_index": 82,
+      "sub_split_index": 5,
+      "char_length": 476,
+      "estimated_tokens": 119
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c083",
+    "text": "• Description: Quantum Threat to Air Force Authentication\n• Talking Points: Air Force operations depend on digital authentication to verify who issued a\ncommand, joined a network, or approved a software update..Many authentication systems rely on\npublic-key cryptography, whose underlying mathematical assumptions could be weakened by suf-\nﬁciently capable quantum computers..If signatures can no longer be trusted, an adversary could",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 16,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c083",
+      "chunk_index": 83,
+      "sub_split_index": 6,
+      "char_length": 434,
+      "estimated_tokens": 108
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c084",
+    "text": "attempt to impersonate authorised users or distribute convincing but unauthorised instructions..The\ndanger is therefore an integrity problem as well as a secrecy problem, because false data can disrupt\ndecisions even when no message is hidden..Protecting authentication requires identifying long-lived\ncertiﬁcates, signed mission systems, and update channels that must remain trustworthy throughout\na platform’s service life.\n• Type: Web_Element\n• Description: Quantum Defence Command",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 16,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c084",
+      "chunk_index": 84,
+      "sub_split_index": 7,
+      "char_length": 484,
+      "estimated_tokens": 121
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c085",
+    "text": "• Type: Web_Element\n• Description: Quantum Defence Command\n• Talking Points: This is a decision activity about balancing quantum-era risks across Air Force\noperations..Choose priorities that protect communications, navigation resilience, and sensitive in-\nformation within a limited decision budget.\n16",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 16,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c085",
+      "chunk_index": 85,
+      "sub_split_index": 8,
+      "char_length": 302,
+      "estimated_tokens": 75
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c086",
+    "text": "Hue Learn: Quantum Mechanics\n• Type: IO_Slide\n• Description: IO Slide\n• Talking Points: Every emerging capability creates another question: what could it threaten? For\nthe Air Force, the concern extends from cryptography and sensitive data to navigation, communi-\ncations and operational resilience.\n3.1.9 Perspective 7\nSelected Idea\n• Adversaries' Threat\n3.1.9.1 Steps\n• Type: Animated_Slide\n• Description: The Quantum Race",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 17,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c086",
+      "chunk_index": 86,
+      "sub_split_index": 1,
+      "char_length": 424,
+      "estimated_tokens": 106
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c087",
+    "text": "3.1.9.1 Steps\n• Type: Animated_Slide\n• Description: The Quantum Race\n• Talking Points: Quantum technology is becoming a strategic race among major powers..India,\nChina, the United States, and Europe are all investing heavily in quantum capabilities..Emerging\nquantum ecosystems are also entering the competition with national programs and startups..The\ncontest spans computing, communication, sensing, and related technologies that can shift future",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 17,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c087",
+      "chunk_index": 87,
+      "sub_split_index": 2,
+      "char_length": 448,
+      "estimated_tokens": 112
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c088",
+    "text": "advantage..India’s progress matters because preparedness now shapes its position in this global\nlandscape.\n• Type: Animated_Image\n• Description: Reading an Adversary’s Quantum Capability\n• Talking Points: An adversary’s quantum capability is assessed through evidence such as sus-\ntained research, skilled talent, prototype demonstrations, and secure-network deployments..Progress\nshould be judged by reliability, scale, and integration, not by a single laboratory announcement",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 17,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c088",
+      "chunk_index": 88,
+      "sub_split_index": 3,
+      "char_length": 477,
+      "estimated_tokens": 119
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c089",
+    "text": "or headline claim..Because quantum technologies mature unevenly, India must track developments\ncontinuously and prepare for changing strategic conditions without assuming an immediate decisive\nadvantage.\n• Type: Animated_Image\n• Description: Why China Matters\n• Talking Points: China's veriﬁed progress in quantum technology makes it strategically relevant\nto India, even before any battleﬁeld use appears..The key concern is not a dramatic threat claim,",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 17,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c089",
+      "chunk_index": 89,
+      "sub_split_index": 4,
+      "char_length": 454,
+      "estimated_tokens": 113
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c090",
+    "text": "but the range of capabilities China is steadily building across several domains..Quantum communi-\ncation, computing, sensing, and space-based systems each create diﬀerent kinds of future leverage\nif they continue maturing..The important distinction is between demonstrated capability today and\nthe possible operational impact that may follow later.\n• Type: Animated_Image\n• Description: Pakistan",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 17,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c090",
+      "chunk_index": 90,
+      "sub_split_index": 5,
+      "char_length": 395,
+      "estimated_tokens": 98
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c091",
+    "text": "• Type: Animated_Image\n• Description: Pakistan\n• Talking Points: Pakistan’s quantum capabilities are still emerging, with activity visible in research,\ncommunication, and security-oriented exploration..Quantum communication and encryption work\nshow interest in protecting information before any broad operational deployment appears..Early\n17",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 17,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c091",
+      "chunk_index": 91,
+      "sub_split_index": 6,
+      "char_length": 341,
+      "estimated_tokens": 85
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c092",
+    "text": "Hue Learn: Quantum Mechanics\nquantum computing initiatives and post-quantum security eﬀorts signal long-term ambition rather\nthan proven military advantage.\n• Type: Animated_Slide\n• Description: The Strategic Risk of Uncertainty\n• Talking Points: Before we talk about the future of quantum technology, let’s separate what is\nproven from what is still possible.Some capabilities have already been demonstrated.Others are",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 18,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c092",
+      "chunk_index": 92,
+      "sub_split_index": 1,
+      "char_length": 419,
+      "estimated_tokens": 104
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c093",
+    "text": "emerging through active research and development.And some remain future possibilities.Your task\nis to classify each statement as Demonstrated, Emerging, or Future Possibility.Remember, in a strate-\ngic technology race, evidence matters more than hype.The goal is not to predict what an adversary\nmight do, but to understand what they can actually demonstrate today—and what they may be ca-\npable of tomorrow\n• Type: IO_Slide\n• Description: IO Slide",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 18,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c093",
+      "chunk_index": 93,
+      "sub_split_index": 2,
+      "char_length": 448,
+      "estimated_tokens": 112
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c094",
+    "text": "pable of tomorrow\n• Type: IO_Slide\n• Description: IO Slide\n• Talking Points: Quantum is also becoming a global strategic competition.As countries build ca-\npabilities across computing, communication and sensing, India must distinguish demonstrated\ncapability from emerging potential—and prepare before the strategic balance changes\n• Type: Animated_Image\n• Description: Asymmetric Quantum Advantage\n• Talking Points: An adversary does not need a fully mature quantum ecosystem to gain an advan-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 18,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c094",
+      "chunk_index": 94,
+      "sub_split_index": 3,
+      "char_length": 494,
+      "estimated_tokens": 123
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c095",
+    "text": "tage in one carefully chosen strategic task..A reliable niche capability can matter disproportionately\nwhen it improves intelligence collection, secure coordination, or precision measurement ahead of a\ncompetitor..The strategic question is therefore which speciﬁc quantum capability becomes depend-\nable ﬁrst, and where that limited edge could alter decisions..India should assess such advantages in\ncontext, avoiding both dismissal of early progress and assumptions that every claim signals opera-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 18,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c095",
+      "chunk_index": 95,
+      "sub_split_index": 4,
+      "char_length": 498,
+      "estimated_tokens": 124
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c096",
+    "text": "tional superiority.\n• Type: Web_Element\n• Description: Change aircraft direction\n• Talking Points: Turn left to move the aircraft heading toward a lower compass bearing..Turn right\nto move the aircraft heading toward a higher compass bearing.\n18",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 18,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c096",
+      "chunk_index": 96,
+      "sub_split_index": 5,
+      "char_length": 245,
+      "estimated_tokens": 61
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c097",
+    "text": "Hue Learn: Quantum Mechanics\n3.2 Fundamentals of Quantum Mechanics\n3.2.1 Backward design\nBig Idea\n•\nSurprising Idea\n•\nSub Ideas Left\n•\nSub Ideas Right\n•\n3.2.2 Disequilibrium\nSelected Idea\n• splitter\n3.2.3 Perspective 1\nSelected Idea\n• Why Quantum, Why Now\n3.2.3.1 Steps\n• Type: Animated_Slide\n• Description: Why Classical Scaling Reaches Limits\n• Talking Points: A classical computer represents information with bits, each ﬁxed as either 0 or 1,",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 19,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c097",
+      "chunk_index": 97,
+      "sub_split_index": 1,
+      "char_length": 445,
+      "estimated_tokens": 111
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c098",
+    "text": "processed by billions of transistor switches..Like a radar processing unit, it takes input signals, ﬁlters\nnoise, performs calculations, and produces usable information such as target range or velocity..Clas-\nsical systems became more capable as transistors grew smaller, faster, and more densely packed,\nincreasing the amount of processing available in a compact device..Classical sensors also convert",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 19,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c098",
+      "chunk_index": 98,
+      "sub_split_index": 2,
+      "char_length": 402,
+      "estimated_tokens": 100
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c099",
+    "text": "quantities such as acceleration, magnetic ﬁeld, temperature, or position into electrical signals, yet\nmust contend with noise, interference, resolution limits, and environmental disturbance..Classical\ntechnology remains essential, but when physical or practical limits dominate, controlled quantum\nstates may oﬀer a diﬀerent way to approach selected problems.\n• Type: Animated_Slide\n• Description: What Makes Quantum Technology Diﬀerent from Classical Technology",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 19,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c099",
+      "chunk_index": 99,
+      "sub_split_index": 3,
+      "char_length": 462,
+      "estimated_tokens": 115
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c100",
+    "text": "• Description: What Makes Quantum Technology Diﬀerent from Classical Technology\n• Talking Points: Classical electronics encode information as bits with deﬁnite values, like a switch\nthat is either ON or OFF..A radar processor can manipulate bit sequences such as 101101 to estimate\nrange, velocity, and position from received signals..A qubit is a controlled quantum state that can\ncontain contributions from both 0 and 1 until measurement produces one deﬁnite outcome..Superpo-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 19,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c100",
+      "chunk_index": 100,
+      "sub_split_index": 4,
+      "char_length": 478,
+      "estimated_tokens": 119
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c101",
+    "text": "sition, entanglement, measurement, and coherence enable interference, correlations, and precision\neﬀects that classical switches cannot reproduce..Quantum technology is not automatically faster for\nradar data or every task, but can oﬀer advantages when a problem exploits these speciﬁc quantum\nproperties.\n• Type: Animated_Slide\n• Description: India's National Quantum Mission — Progress Across Four Technology Areas\n19",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 19,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c101",
+      "chunk_index": 101,
+      "sub_split_index": 5,
+      "char_length": 419,
+      "estimated_tokens": 104
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c102",
+    "text": "Hue Learn: Quantum Mechanics\n• Talking Points: Approved in April 2023, India’s National Quantum Mission commits ₹6,00365 crore\nfrom 2023–24 to 2030–31 to build indigenous quantum capability..Quantum Computing targets in-\ntermediate-scale systems of 50 to 1,000 physical qubits, with its Thematic Hub at IISc Bengaluru\nadvancing hardware, algorithms, and fabrication..Quantum Communication is pursuing QKD, multi-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 20,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c102",
+      "chunk_index": 102,
+      "sub_split_index": 1,
+      "char_length": 412,
+      "estimated_tokens": 103
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c103",
+    "text": "node networks, and satellite links, while IIT Madras and C-DOT support progress following a\nreported 1,000-km secure-network demonstration..Quantum Sensing and Metrology at IIT Bombay\ndevelops magnetometers, precision clocks, and navigation tools that could strengthen timing, iner-\ntial sensing, and resilience when GPS is unavailable..Quantum Materials and Devices at IIT Delhi\nsupplies the foundation: material property to device to technology to application, such as supercon-",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 20,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c103",
+      "chunk_index": 103,
+      "sub_split_index": 2,
+      "char_length": 480,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c104",
+    "text": "ductors enabling qubits or diamond defects enabling magnetic sensing.\n• Type: Animated_Slide\n• Description: Classical Computing as Binary Logic\n• Talking Points: Classical computing stores information as bits that are ﬁxed at either 0 or 1..Logic\ngates such as AND, OR, and NOT combine those bits into useful operations..Microchips process tasks\nin a step-by-step sequence, so each operation follows the last one..That approach is reliable at room",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 20,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c104",
+      "chunk_index": 104,
+      "sub_split_index": 3,
+      "char_length": 447,
+      "estimated_tokens": 111
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c105",
+    "text": "temperature and powers everyday devices and standard software.\n• Type: Animated_Slide\n• Description: Quantum Computing as a New Strategic Capability\n• Talking Points: Quantum computing uses quantum physics to tackle certain problems that strain\nclassical supercomputers..A qubit can represent more than a single ﬁxed value, so information can\nbe processed in a diﬀerent way..That diﬀerence does not make every task faster, but it can create",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 20,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c105",
+      "chunk_index": 105,
+      "sub_split_index": 4,
+      "char_length": 440,
+      "estimated_tokens": 110
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c106",
+    "text": "major advantage for speciﬁc workloads..Strategic value comes from solving select problems better,\nnot from replacing all classical computing..The real question is where those special capabilities mat-\nter most for security, planning, and science.\n3.2.4 Perspective 2\nSelected Idea\n• The Quantum Departure from Classical Physics\n3.2.5 Perspective 3\nSelected Idea\n• Superposition\n3.2.6 Perspective 4\nSelected Idea\n• Entanglement\n3.2.7 Perspective 5\nSelected Idea\n• Other Sub Idea Right",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 20,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c106",
+      "chunk_index": 106,
+      "sub_split_index": 5,
+      "char_length": 483,
+      "estimated_tokens": 120
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c107",
+    "text": "• Entanglement\n3.2.7 Perspective 5\nSelected Idea\n• Other Sub Idea Right\n3.2.8 Perspective 6\nSelected Idea\n• Knowledge Check\n20",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 20,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c107",
+      "chunk_index": 107,
+      "sub_split_index": 6,
+      "char_length": 126,
+      "estimated_tokens": 31
+    }
+  },
+  {
+    "chunk_id": "Quantum-Mechanics (1)_c108",
+    "text": "Hue Learn: Quantum Mechanics\n3.2.9 Perspective 7\nSelected Idea\n• Buﬀer\n21",
+    "metadata": {
+      "source": "Quantum-Mechanics (1).pdf",
+      "file_path": "C:\\Users\\Keshav\\RAG\\SentinelRAG\\data\\raw\\Quantum-Mechanics (1).pdf",
+      "file_type": ".pdf",
+      "page": 21,
+      "total_pages": 22,
+      "chunk_id": "Quantum-Mechanics (1)_c108",
+      "chunk_index": 108,
+      "sub_split_index": 1,
+      "char_length": 73,
+      "estimated_tokens": 18
+    }
+  }
+]
